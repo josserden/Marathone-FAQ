@@ -74,6 +74,13 @@ h1 {
     text-align: center;
 }
 
+iframe {
+    border: 0;
+}
+code {
+    color: #ff6c0a;
+}
+
 @media (min-width: 768px) {
     .title {
         font-size: 1.5rem;
@@ -85,10 +92,6 @@ h1 {
 @media (min-width: 1200px) {
     h1 {
         font-size: 43px;
-    }
-
-    .tab {
-        font-size: 21px;
     }
 
     .fix {
